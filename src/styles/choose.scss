@@ -1,0 +1,45 @@
+#choose {
+  width: 80%;
+  margin: auto;
+
+}
+
+.choose {
+  display: flex;
+  justify-items: center;
+}
+
+.img_tem{
+  position: relative;
+  text-align: center;
+}
+
+.img_sanc {
+  position: relative;
+  text-align: center;
+}
+
+.img_tem img {
+    width: 100%;
+    height: 80%;
+    filter: brightness(0.4);
+}
+
+
+
+.img_sanc img {
+  width: 100%;
+  height: 80%;
+  filter: brightness(0.4);
+}
+
+.img_tem h1, .img_sanc h1{
+  position: absolute;
+  top: 33%;
+  left: 25%;
+  color: #C49E56;
+  font-family: 'Anonymous Pro';
+  font-style: italic;
+  font-size: 3rem;
+}
+
